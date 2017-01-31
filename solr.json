@@ -137,7 +137,7 @@
         "sudo chown -R solr:solr /srv/solr /data/solr /var/log/solr",
         "sudo cp /tmp/solr.service /lib/systemd/system/",
         "sudo systemctl daemon-reload",
-        "sudo systemctl enable solr.service",
+        "sudo systemctl disable solr.service",
         "for program in solr; do sudo update-alternatives --install /usr/bin/${program} ${program} /srv/solr/bin/${program} 1; done",
         "sudo cp /tmp/solr_config /usr/local/bin/",
         "sudo chown root:staff /usr/local/bin/solr_config",
