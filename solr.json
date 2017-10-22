@@ -19,7 +19,7 @@
     "solr_version":        "{{env `solr_version`}}",
     "system_locale":       "en_US",
     "zookeeper_uid":       "2006",
-    "zookeeper_version":   "3.4.9"
+    "zookeeper_version":   "3.4.10"
   },
   "builders": [{
     "type":                        "amazon-ebs",
